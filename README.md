@@ -17,7 +17,7 @@ BrighterLife makes professional counseling available anytime, anywhere, through 
 
 <h3> PROJECT SITEMAP </h3>
 
-![alt text](https://github.com/ZawadAhmed/BrighterLife/blob/main/Images/Sitemap.png?raw=true)
+![sitemap](https://github.com/ZawadAhmed/BrighterLife/blob/main/Images/Sitemap.PNG)
 
 
 
@@ -25,26 +25,31 @@ BrighterLife makes professional counseling available anytime, anywhere, through 
 
 <h4> Zawad Wasik Ahmed (1912485) </h4>
 
-1. Pages (HTML/CSS) : Homepage, Login/Signup, Anxiety, Stress, Depression 
-2. Overall sitemap for the project.
-3. Added Pictures on the Homepage, Stress, Anxiety and Depression. 
-4. JavaScript query selector on form for Login/Signup 
+- Pages (HTML/CSS) : Homepage, Login/Signup, Anxiety, Stress, Depression 
+- Overall sitemap for the project.
+- Added Pictures on the Homepage, Stress, Anxiety and Depression. 
+- JavaScript query selector on form for Login/Signup 
 
 <h4> Nurhidayu binti Ishak (1912604) </h4>
 
-1. Pages (HTML/CSS) : Contact and Article
-2. Web elements: Draggable message box
-3. Added 5 articles using button as a link in Article page with appropriate styling
-4. JavaScript popup box which is alert box for form in Contact page
-5. Added all the images on Contact and Article page 
+- Pages (HTML/CSS) : Contact and Article
+- Web elements: Draggable message box
+- Added 5 articles using button as a link in Article page with appropriate styling
+- JavaScript popup box which is alert box for form in Contact page
+- Added all the images on Contact and Article page 
 
 <h4> Nur Ameliene Lee (1912216) </h4>
 
-1.
-2.
-3.
-4. 
+- Pages: About and Appointment
+- Web element: Logo 
+- Javascript alert box message in appointment page for confirmation form.
+- Creator of the color palette
+
+
 <h4> Turjoy Sadiul Haque (1910563) </h4>
+ - Page: Payment
+
+
 
 
 
@@ -52,34 +57,63 @@ BrighterLife makes professional counseling available anytime, anywhere, through 
 <h3> USE OF THIRD PARTY RESOURCES </h3>
 
 Name: Zawad Wasik Ahmed 
-Web element - Login/signup 
+
+Web element 
+- Login/signup 
+
 Use of third party resources and modifications (if any)
   - jqueryselector 
 
 Graphics for the pages are from Google Images
-All graphics are inside a container div box 
-All graphics are resized and positioned using CSS styling
+
+- All graphics are inside a container div box 
+- All graphics are resized and positioned using CSS styling
 
 
 Name: Nurhidayu binti Ishak
 
-Web elements - Interactions draggable
-Interactions draggable (JQueyUI) are used in the Contact page.
-Background-color when start and stop drag
+Web elements 
+- Interactions draggable
+- Interactions draggable (JQueyUI) are used in the Contact page.
+- Background-color when start and stop drag
+
 Graphics for Article and Contact
-All graphics for Articles div box and background image for Contact page are from pexels.com
-All graphics are resized using CSS styling
+- All graphics for Articles div box and background image for Contact page are from pexels.com
+- All graphics are resized using CSS styling
+
+Name: Nur Ameliene Lee 
+
+Web elements
+
+- Date time picker, used in the appointment page for users to pick the date and time they desire.
+
+Graphics 
+- All logo and images  are created using canva.com 
+- Slideshow graphics created using canva.com
+- All graphics are resized using CSS styling
 
 
+<h3> Reference : </h3>
 
-Reference : 
+
+- jqurey selectable https://jqueryui.com/selectable/
+
+- JS Foundation - js.foundation. (2021). Draggable | jQuery UI. Jqueryui.com. https://jqueryui.com/draggable/ 
+
+- 100,000+ Best Dark Background Photos · 100% Free Download · Pexels Stock Photos. (2021). Pexels.com; Pexels. https://www.pexels.com/search/dark%20background/ 
+
+-Fotorama — Simple and Powerful Responsive jQuery Image Gallery. (n.d.). Https://Fotorama.Io/. Retrieved June 4, 2021, from https://fotorama.io/ 
+
+- logo for webtech – Logo by NUR AMELIENE LEE. Canva. (n.d.). https://www.canva.com/design/DAEbwtsL-Ps/eFrXKHnSf3E_PmZWRbHz5g/view?utm_content=DAEbwtsL-Ps&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu 
+
+- Color Hunt - Color Palettes for Designers and Artists. (n.d.). Https://Colorhunt.Co/. Retrieved April 16, 2021, from https://colorhunt.co/
 
 
-jqurey selectable https://jqueryui.com/selectable/
+- bootstrap-datetimepicker - Libraries - cdnjs - The #1 free and open source CDN built to make life easier for developers. (n.d.). Https://Cdnjs.Com/Libraries/Bootstrap-Datetimepicker. Retrieved June 8, 2021, from https://cdnjs.com/libraries/bootstrap-datetimepicker
 
-JS Foundation - js.foundation. (2021). Draggable | jQuery UI. Jqueryui.com. https://jqueryui.com/draggable/ 
+- Hosted Libraries |. (n.d.). Google Developers. Retrieved June 8, 2021, from https://developers.google.com/speed/libraries#jquery
 
-100,000+ Best Dark Background Photos · 100% Free Download · Pexels Stock Photos. (2021). Pexels.com; Pexels. https://www.pexels.com/search/dark%20background/ 
+
 
 
 
