@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong: 200,300,400,500,600,700,800,900&display=swap');
+body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trirong', serif;
+  background-color: #faf2e8e0;
+  color: #000000;
+}
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 10;
+  background-color: #BDD2B6;
+}
+
+header .logoimage
+{
+  position: relative;
+  margin-left: 60px;
+  padding: 0;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 80%;
+  width: 80px;
+  height: 80px;
+}
+
+header .logo
+{
+  position: relative;
+  margin-right: 400px;
+  text-align: right;
+  font-size: 16px;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #BDD2B6;
+}
+
+header .navigation
+{
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  background-color: #BDD2B6;
+}
+
+header .navigation li
+{
+  list-style: none;
+  background-color: #BDD2B6;
+  margin-right: 30px;
+  text-align: center;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+header .navigation li a
+{
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition:  all 0.4s ease 0s;
+}
+
+header .navigation li a:hover
+{
+  color: #ffffff;
+}
+
+footer{
+  overflow: visible;
+  position: relative;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #BDD2B6;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  text-align:center;
+}
+
+
+footer .copyright.footer-center
+{
+  font-size: 10px;
+  margin-top: 90px;
+  margin-bottom: 0;
+}

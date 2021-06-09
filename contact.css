@@ -1,0 +1,116 @@
+/*css for contact page*/
+.title
+{
+  position: relative;
+  font-size: 40px;
+  font-weight: 600px;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Trirong', serif;
+  color: #fff;
+}
+
+.contact
+{
+  position:relative;
+  min-height: 50px;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(images/dark.jpg);
+  background-size:cover;
+}
+
+.contact .content p
+{
+  padding-top: 0;
+  margin: 0;
+  text-align: center;
+  color: #BDD2B6;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+input, textarea {
+  border-radius: 5px;
+  border: 1px solid #8E8E8E;
+  padding: 12px;
+}
+input:hover, textarea:hover{
+  background-color: #BDD2B6;
+  box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.2);
+  opacity: 0.7;
+}
+
+form {
+  padding-top: 0px;
+}
+
+.contact-info {
+  font-family: 'Trirong', serif;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+}
+
+.contact-info .details {
+  float: right;
+  width: 35%;
+  margin: 10px;
+  text-align:left;
+}
+
+.contact-info .details h4{
+  color: #96F6A9;
+}
+
+.contact-info .form {
+  float: left;
+  width: 50%;
+  margin: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.contact-info .form .button
+{
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  padding: 2px;
+  border-radius: 6px;
+  background-color: #BDD2B6;
+  color: black;
+  font-family: 'Trirong', serif;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.form-control {
+  width: 70%;
+}
+
+/*jquery draggable css*/
+.wrap{
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.draggable {
+  width: 350px;
+  height: 100px;
+  background-color: tomato;
+  border: 2px solid white;
+  opacity: 0.8;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+	<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+		<title>BrighterLife Login </title>
+		<meta name = 'viewport' content = 'width = device-width'/>
+		
+        <body>
+
+            <header class="Header">
+                <img class="logoimage" src="images/Logo.png" alt="logo-BrighterLife">
+                <a href="index.html" class="logo"> BrighterLife</a>
+                  <ul class="navigation">
+                  
+                   
+              </header>
+
+			<div class = 'box'>
+				<div class = 'form active' id = 'one'>
+					<h2>
+						<p data-target = '#one'>Login</p>
+						<p data-target = '#two'>Sign-up</p>
+					</h2>
+					<form action = 'index.html'>
+						<div>
+							<input type = 'text' name = '' required = ''/>
+							<label>Username</label>
+						</div>
+						<div>
+							<input type = 'Password' name = '' required = ''/>
+							<label>Password</label>
+						</div>
+						<div>
+							<input type = 'email' name = '' required = ''/>
+							<label>Email</label>
+						</div>
+						<button>Login</button>
+					</form>
+				</div>
+				<div class = 'form' id = 'two'>
+					<h2>
+						<p data-target = 'clickablelinks'>Login</p>
+						<p data-target = '#two'>Sign-up</p>
+					</h2>
+					<form action = 'index.html'>
+						<div>
+							<input type = 'text' name = '' required = ''/>
+							<label>Username</label>
+						</div>
+						<div>
+							<input type = 'Password' name = '' required = ''/>
+							<label>Password</label>
+						</div>
+						<button>Sign-Up</button>
+					</form>
+				</div>
+			</div>
+		</body>
+</html>
+
+<script type="text/javascript"> 
+const clickableLinks = document.querySelectorAll('.box h2');
+const switchBetweenLogin = document.querySelectorAll('.form');
+clickableLinks.forEach(link => {
+	link.addEventListener('click',(e) => {
+		if(e.target.tagName == 'P'){
+			const targetPage = document.querySelector(e.target.dataset.target);
+			switchBetweenLogin.forEach(log => {
+				(log == targetPage) ? log.classList.add('active') : log.classList.remove('active');
+			});
+		}
+	});	
+});
+</script>

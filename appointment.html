@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brighter Life</title>
+  <link rel="stylesheet" href="styles_appointment.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+
+<header class="Header">
+
+ 
+    <img class="logoimage" src="images/logo.png" alt="logo-BrighterLife">
+    <a href="index.html" class="logo"> BrighterLife</a>
+    <ul class="navigation">
+        <li> <a href="index.html"> Home </a> </li>
+        <li> <a href="about.html"> About </a></li>
+        <li> <a href="contact.html"> Contact </a></li>
+        <li> <a href="articles.html"> Articles </a></li>
+    </ul>
+
+
+</header>
+<div class="intro">
+  <h1>Book Your Consultation Today!</h1>
+  <p>Our team of licensed consulters will help you through the entire process.
+  Book your appointment today!</p><br>
+
+
+</div>
+<div class="appoinmentform">
+  <h1>Book Appointment</h1>
+</div>
+<div class="main">
+  <form>
+    <div id="name">
+      <h2 class="name">Full Name :</h2>
+      <input class="firstname" name="first_name" placeholder="enter your first name"><br>
+      <label class="firstlabel"> first name </label>
+      <input class="lastname" name="last_name" placeholder="enter your last name">
+      <label class="lastlabel"> last name</label>
+    </div>
+
+    <h2 class="name">Email :</h2>
+    <input class="email" type="text" name="email" placeholder="enter your email address"value="">
+
+    <h2 class="name">Phone Number :</h2>
+
+    <input class="phone" type="text" name="phone"  placeholder="first number" value="">
+    <label class="phone_one"> first number </label>
+    <input class="phone2" type="text" name="phone2"  placeholder="second number" value="">
+    <label class="phone_two"> second number </label>
+
+
+    <h2 class="name">Reasons for visit : </h2>
+    <input class="reasons" type="text" name="reasons" placeholder="You may share your experience with us" value="">
+    <h2 class="name"> Pick your date and time : </h2>
+    <div class="form-group">
+      <div class="input-group" id="datetimepicker">
+        <input class="form-control" type="text">
+          <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+          </span>
+      </div>
+
+    </div>
+    <button onclick="myFunction()" class="confirmbutton"type="submit"> confirm appointment</button>
+    <br>
+    <button class="confirmbutton" type="submit"><a href="payment.html"> proceed with payment </a> </button>
+
+
+
+  </form>
+
+</div>
+
+<script>
+  function myFunction(){
+    alert("Thank you for booking with us! We have confirmed your order.")
+  }
+</script>
+
+<script type="text/javascript">
+  $(function(){
+    $('#datetimepicker').datetimepicker();
+  })
+</script>
+
+<footer>
+<div class="footer-content">
+  <h3>Brighter Life</h3>
+  <h4>BrighterLife@brighterlife.com</h4>
+  <p>Brighter Life, Copyright &#169 2021 </p>
+
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

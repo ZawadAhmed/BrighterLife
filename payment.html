@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout Card</title>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   
+    <link rel="stylesheet" href="styles_payment.css">
+</head>
+<body>
+
+    <header class="Header">
+
+        <img class="logoimage" src="images/Logo.png" alt="logo-BrighterLife">
+        <a href="index.html" class="logo"> BrighterLife</a>
+          <ul class="navigation">
+            <li> <a href="index.html"> Home </a> </li>
+            <li> <a href="about.html"> About</a></li>
+            <li> <a href="contact.html"> Contact </a></li>
+            <li> <a href="articles.html"> Articles </a></li>
+           </ul>
+    </header>
+    <br>
+    <br>
+    <br>
+
+<h2>Responsive Checkout Form</h2>
+<div class="row">
+    <div class="col-75">
+        <div class="container">
+            <form id="validate" action="/action_page.php">
+                <div class="row">
+                    <div class="col-50">
+                        <h3>Billing Address</h3>
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="fullname" placeholder="Input Name" required>
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="xyz@gmai.com" required>
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="Gombak" required>
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="Kuala Lumpur" required>
+
+                        <div class="row">
+                            <div class="col-50">
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" placeholder="Selangor"required>
+                            </div>
+                            <div class="col-50">
+                                <label for="zip">Zip</label>
+                                <input type="text" id="zip" name="zip" placeholder="53600"required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-50">
+                        <h3>Payment</h3>
+                        <label for="fname">Accepted Cards</label>
+                        <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="Input Name"required>
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"required>
+                        <label for="expmonth">Exp Month</label>
+                        <input type="text" id="expmonth" name="expmonth" placeholder="September"required>
+                        <div class="row">
+                            <div class="col-50">
+                                <label for="expyear">Exp Year</label>
+                                <input type="text" id="expyear" name="expyear" placeholder="2021"required>
+                            </div>
+                            <div class="col-50">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="352"required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <label>
+                <input type="checkbox" checked="checked" name="Name"> Shipping address same as billing
+                </label>
+                <input type="submit" value="Continue to checkout" class="btn">
+            </form>
+        </div>
+    </div>
+    <div class="col-25">
+        <div class="container">
+            <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+            <p><a href="#">Yoga Class</a> <span class="price">RM 1500</span></p>
+            <p><a href="#"> Depression Therapy</a> <span class="price">RM1500</span></p>
+            <p><a href="#">Life Therapy</a> <span class="price">RM1400</span></p>
+            <p><a href="#">Perfect Life</a> <span class="price">RM1200</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>RM12600</b></span></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#validate').validate({
+        roles: {
+            fullname: {
+                required: true,
+            },
+            email: {
+                required: true,
+            },
+            address: {
+                required: true,
+            },
+            city: {
+                required: true,
+            },
+            state: {
+                required: true,
+            },
+            zip: {
+                required: true,
+            },
+            cardname: {
+                required: true,
+            },
+            cardnumber: {
+                required: true,
+            },
+            expmonth: {
+                required: true,
+            },
+            expyear: {
+                required: true,
+            },
+            cvv: {
+                required: true,
+            },
+           
+        },
+        
+    });
+</script>
+</body>
+</html>
