@@ -16,7 +16,8 @@ BrighterLife makes professional counseling available anytime, anywhere, through 
 
 
 <h3> PROJECT SITEMAP </h3>
-         ![alt text](https://github.com/ZawadAhmed/BrighterLife/blob/main/Images/Sitemap.PNG)
+
+![alt text](https://github.com/ZawadAhmed/BrighterLife/blob/main/Images/Sitemap.png?raw=true)
 
 
 
