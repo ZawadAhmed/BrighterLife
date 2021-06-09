@@ -102,7 +102,7 @@ Graphics
 
 - 100,000+ Best Dark Background Photos · 100% Free Download · Pexels Stock Photos. (2021). Pexels.com; Pexels. https://www.pexels.com/search/dark%20background/ 
 
--Fotorama — Simple and Powerful Responsive jQuery Image Gallery. (n.d.). Https://Fotorama.Io/. Retrieved June 4, 2021, from https://fotorama.io/ 
+- Fotorama — Simple and Powerful Responsive jQuery Image Gallery. (n.d.). Https://Fotorama.Io/. Retrieved June 4, 2021, from https://fotorama.io/ 
 
 - logo for webtech – Logo by NUR AMELIENE LEE. Canva. (n.d.). https://www.canva.com/design/DAEbwtsL-Ps/eFrXKHnSf3E_PmZWRbHz5g/view?utm_content=DAEbwtsL-Ps&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu 
 
